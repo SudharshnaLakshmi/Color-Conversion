@@ -62,7 +62,7 @@ cv2.imshow('RGB2GRAY', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 
-### Vi)Convert HSV to RGB
+### Vi) Convert HSV to RGB
 import cv2
 uni = cv2.imread('uni.jpg')
 RGB_image = cv2.cvtColor(uni,cv2.COLOR_HSV2RGB)
@@ -70,7 +70,7 @@ cv2.imshow('HSV to RGB',RGB_image )
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-### vii)Convert HSV to BGR
+### vii) Convert HSV to BGR
 import cv2
 uni = cv2.imread('uni.jpg')
 BGR_image = cv2.cvtColor(uni,cv2.COLOR_HSV2BGR)
@@ -78,7 +78,7 @@ cv2.imshow('HSV to BGR',BGR_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-### viii)Convert RGB to YCrCb
+### viii) Convert RGB to YCrCb
 import cv2
 uni = cv2.imread('uni.jpg')
 YCrCb_image = cv2.cvtColor(uni, cv2.COLOR_RGB2YCrCb)
@@ -86,7 +86,7 @@ cv2.imshow('RGB2YCrCb',YCrCb_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-### ix)Convert BGR to YCrCb
+### ix) Convert BGR to YCrCb
 import cv2
 uni = cv2.imread('uni.jpg')
 YCrCb_image = cv2.cvtColor(uni, cv2.COLOR_BGR2YCrCb)
@@ -94,7 +94,7 @@ cv2.imshow('BGR2YCrCb',YCrCb_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-### x)Split RGB Image
+### x) Split RGB Image
 import cv2
 uni = cv2.imread('uni.jpg')
 blue=uni[:,:,0]
@@ -141,19 +141,19 @@ cv2.destoryAllWindows()
 ### V) Convert RGB to GRAY
 ![](5.png)
 
-### Vi)Convert HSV to RGB
+### Vi) Convert HSV to RGB
 ![](6.png)
 
-### vii)Convert HSV to BGR
+### vii) Convert HSV to BGR
 ![](7.png)
 
-### viii)Convert RGB to YCrCb
+### viii) Convert RGB to YCrCb
 ![](8.png)
 
-### ix)Convert BGR to YCrCb
+### ix) Convert BGR to YCrCb
 ![](9.png)
 
-### x)Split RGB Image
+### x) Split RGB Image
 ![](10.png)
 
 ### xi) Merge RGB Image
